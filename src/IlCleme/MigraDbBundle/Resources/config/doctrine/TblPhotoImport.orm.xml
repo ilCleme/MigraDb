@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="IlCleme\MigraDbBundle\Entity\TblPhotoImport" table="tbl_photo_import">
+    <id name="id" type="boolean" column="id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="idTblPhotoImport" type="integer" column="id_tbl_photo_import" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="idTblLingua" type="integer" column="id_tbl_lingua" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="idTblPhotoCat" type="integer" column="id_tbl_photo_cat" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="idTblPhotoCatAdded" type="integer" column="id_tbl_photo_cat_added" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="nome" type="string" column="nome" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="storeDirectory" type="string" column="store_directory" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="pathStoreDirectory" type="string" column="path_store_directory" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="newStoreDirectory" type="string" column="new_store_directory" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="quality" type="boolean" column="quality" nullable="false"/>
+    <field name="automaticPub" type="boolean" column="automatic_pub" nullable="true"/>
+    <field name="filesource" type="string" column="filesource" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="deleteFilesource" type="boolean" column="delete_filesource" nullable="true"/>
+    <field name="dimx" type="integer" column="dimx" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="dimy" type="integer" column="dimy" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="thumbnailDimx" type="integer" column="thumbnail_dimx" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="thumbnailDimy" type="integer" column="thumbnail_dimy" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="watermarkFilesource" type="string" column="watermark_filesource" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="watermarkXposition" type="simple_array" column="watermark_xposition" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="watermarkYposition" type="simple_array" column="watermark_yposition" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="watermarkText" type="string" column="watermark_text" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="watermarkTextsize" type="boolean" column="watermark_textsize" nullable="true"/>
+    <field name="watermarkTextcolor" type="string" column="watermark_textcolor" length="7" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="watermarkTextxposition" type="simple_array" column="watermark_textxposition" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="watermarkTextyposition" type="simple_array" column="watermark_textyposition" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>

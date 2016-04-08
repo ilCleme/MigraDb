@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="IlCleme\MigraDbBundle\Entity\TblNotizieSetup" table="tbl_notizie_setup">
+    <id name="id" type="boolean" column="id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="idTblNotizieSetup" type="boolean" column="id_tbl_notizie_setup" nullable="true"/>
+    <field name="idTblLingua" type="boolean" column="id_tbl_lingua" nullable="false"/>
+    <field name="nDays" type="smallint" column="n_days" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="nVisiblePreview" type="boolean" column="n_visible_preview" nullable="false"/>
+    <field name="nItemXPageActive" type="smallint" column="n_item_x_page_active" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="nItemXPageArchive" type="smallint" column="n_item_x_page_archive" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="nItemXPageSearch" type="smallint" column="n_item_x_page_search" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="maxNPage" type="smallint" column="max_n_page" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="templateListPreview" type="string" column="template_list_preview" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="templateList" type="string" column="template_list" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="template" type="string" column="template" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="templateSearch" type="string" column="template_search" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="setlocale" type="string" column="setlocale" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="formatDateList" type="string" column="format_date_list" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="formatDatePage" type="string" column="format_date_page" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="formatDatePreview" type="string" column="format_date_preview" length="255" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="pageListActive" type="string" column="page_list_active" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="pageViewActive" type="string" column="page_view_active" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="pageListArchive" type="string" column="page_list_archive" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="pageViewArchive" type="string" column="page_view_archive" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="pageSearch" type="string" column="page_search" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="pageSearchList" type="string" column="page_search_list" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="pageSearchView" type="string" column="page_search_view" length="255" nullable="true">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>

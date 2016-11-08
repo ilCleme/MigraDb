@@ -2,7 +2,3 @@ il_cleme_migra_db:
     resource: "@IlClemeMigraDbBundle/Controller/"
     type:     annotation
     prefix:   /
-
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation

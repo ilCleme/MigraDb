@@ -4,9 +4,6 @@ namespace IlCleme\MigraDbBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\Validator\Constraints\Url;
-use Symfony\Component\Validator\Constraints\UrlValidator;
 
 class DefaultController extends Controller
 {
@@ -29,9 +26,12 @@ class DefaultController extends Controller
 
         foreach($news as $notizia){
             $linkPagina = $notizia->getIdTblPage();
+
             if(empty($linkPagina)){
                 $linkPagina = $notizia->getLink();
+                $notizia->setLink(null);
             }
+
             $url = parse_url($linkPagina);
             $contenuto = null;
 

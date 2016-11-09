@@ -66,3 +66,20 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+easy_admin:
+    entities:
+        - IlCleme\MigraDbBundle\Entity\TblPage
+        - IlCleme\MigraDbBundle\Entity\TblNotizie
+        - IlCleme\MigraDbBundle\Entity\TblUser
+    site_name: 'Migra Db'
+    formats:
+        date: 'd/m/Y'
+        time: 'h:i A e'
+        datetime: 'd/m/Y h:i A e'
+    list:
+
+        # expanded configuration format
+        actions:
+            - { name: 'edit', label: 'Modifica' }
+            - { name: 'delete', label: 'Elimina' }

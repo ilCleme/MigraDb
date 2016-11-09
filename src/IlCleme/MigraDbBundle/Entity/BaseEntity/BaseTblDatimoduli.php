@@ -45,5 +45,110 @@ class BaseTblDatimoduli
     private $serialize;
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set idSession
+     *
+     * @param string $idSession
+     *
+     * @return BaseTblDatimoduli
+     */
+    public function setIdSession($idSession)
+    {
+        $this->idSession = $idSession;
+
+        return $this;
+    }
+
+    /**
+     * Get idSession
+     *
+     * @return string
+     */
+    public function getIdSession()
+    {
+        return $this->idSession;
+    }
+
+    /**
+     * Set lastPing
+     *
+     * @param integer $lastPing
+     *
+     * @return BaseTblDatimoduli
+     */
+    public function setLastPing($lastPing)
+    {
+        $this->lastPing = $lastPing;
+
+        return $this;
+    }
+
+    /**
+     * Get lastPing
+     *
+     * @return integer
+     */
+    public function getLastPing()
+    {
+        return $this->lastPing;
+    }
+
+    /**
+     * Set idTblForm
+     *
+     * @param integer $idTblForm
+     *
+     * @return BaseTblDatimoduli
+     */
+    public function setIdTblForm($idTblForm)
+    {
+        $this->idTblForm = $idTblForm;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblForm
+     *
+     * @return integer
+     */
+    public function getIdTblForm()
+    {
+        return $this->idTblForm;
+    }
+
+    /**
+     * Set serialize
+     *
+     * @param string $serialize
+     *
+     * @return BaseTblDatimoduli
+     */
+    public function setSerialize($serialize)
+    {
+        $this->serialize = $serialize;
+
+        return $this;
+    }
+
+    /**
+     * Get serialize
+     *
+     * @return string
+     */
+    public function getSerialize()
+    {
+        return $this->serialize;
+    }
+}

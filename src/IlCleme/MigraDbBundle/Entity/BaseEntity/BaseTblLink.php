@@ -101,5 +101,302 @@ class BaseTblLink
     private $lightbox;
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set idPadre
+     *
+     * @param integer $idPadre
+     *
+     * @return BaseTblLink
+     */
+    public function setIdPadre($idPadre)
+    {
+        $this->idPadre = $idPadre;
+
+        return $this;
+    }
+
+    /**
+     * Get idPadre
+     *
+     * @return integer
+     */
+    public function getIdPadre()
+    {
+        return $this->idPadre;
+    }
+
+    /**
+     * Set idTblLink
+     *
+     * @param integer $idTblLink
+     *
+     * @return BaseTblLink
+     */
+    public function setIdTblLink($idTblLink)
+    {
+        $this->idTblLink = $idTblLink;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblLink
+     *
+     * @return integer
+     */
+    public function getIdTblLink()
+    {
+        return $this->idTblLink;
+    }
+
+    /**
+     * Set idTblLingua
+     *
+     * @param integer $idTblLingua
+     *
+     * @return BaseTblLink
+     */
+    public function setIdTblLingua($idTblLingua)
+    {
+        $this->idTblLingua = $idTblLingua;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblLingua
+     *
+     * @return integer
+     */
+    public function getIdTblLingua()
+    {
+        return $this->idTblLingua;
+    }
+
+    /**
+     * Set nome
+     *
+     * @param string $nome
+     *
+     * @return BaseTblLink
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+
+        return $this;
+    }
+
+    /**
+     * Get nome
+     *
+     * @return string
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * Set descrizione
+     *
+     * @param string $descrizione
+     *
+     * @return BaseTblLink
+     */
+    public function setDescrizione($descrizione)
+    {
+        $this->descrizione = $descrizione;
+
+        return $this;
+    }
+
+    /**
+     * Get descrizione
+     *
+     * @return string
+     */
+    public function getDescrizione()
+    {
+        return $this->descrizione;
+    }
+
+    /**
+     * Set link
+     *
+     * @param string $link
+     *
+     * @return BaseTblLink
+     */
+    public function setLink($link)
+    {
+        $this->link = $link;
+
+        return $this;
+    }
+
+    /**
+     * Get link
+     *
+     * @return string
+     */
+    public function getLink()
+    {
+        return $this->link;
+    }
+
+    /**
+     * Set linkfile
+     *
+     * @param string $linkfile
+     *
+     * @return BaseTblLink
+     */
+    public function setLinkfile($linkfile)
+    {
+        $this->linkfile = $linkfile;
+
+        return $this;
+    }
+
+    /**
+     * Get linkfile
+     *
+     * @return string
+     */
+    public function getLinkfile()
+    {
+        return $this->linkfile;
+    }
+
+    /**
+     * Set img
+     *
+     * @param string $img
+     *
+     * @return BaseTblLink
+     */
+    public function setImg($img)
+    {
+        $this->img = $img;
+
+        return $this;
+    }
+
+    /**
+     * Get img
+     *
+     * @return string
+     */
+    public function getImg()
+    {
+        return $this->img;
+    }
+
+    /**
+     * Set idTblCatLink
+     *
+     * @param integer $idTblCatLink
+     *
+     * @return BaseTblLink
+     */
+    public function setIdTblCatLink($idTblCatLink)
+    {
+        $this->idTblCatLink = $idTblCatLink;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblCatLink
+     *
+     * @return integer
+     */
+    public function getIdTblCatLink()
+    {
+        return $this->idTblCatLink;
+    }
+
+    /**
+     * Set idTblTarget
+     *
+     * @param integer $idTblTarget
+     *
+     * @return BaseTblLink
+     */
+    public function setIdTblTarget($idTblTarget)
+    {
+        $this->idTblTarget = $idTblTarget;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblTarget
+     *
+     * @return integer
+     */
+    public function getIdTblTarget()
+    {
+        return $this->idTblTarget;
+    }
+
+    /**
+     * Set posizione
+     *
+     * @param integer $posizione
+     *
+     * @return BaseTblLink
+     */
+    public function setPosizione($posizione)
+    {
+        $this->posizione = $posizione;
+
+        return $this;
+    }
+
+    /**
+     * Get posizione
+     *
+     * @return integer
+     */
+    public function getPosizione()
+    {
+        return $this->posizione;
+    }
+
+    /**
+     * Set lightbox
+     *
+     * @param integer $lightbox
+     *
+     * @return BaseTblLink
+     */
+    public function setLightbox($lightbox)
+    {
+        $this->lightbox = $lightbox;
+
+        return $this;
+    }
+
+    /**
+     * Get lightbox
+     *
+     * @return integer
+     */
+    public function getLightbox()
+    {
+        return $this->lightbox;
+    }
+}

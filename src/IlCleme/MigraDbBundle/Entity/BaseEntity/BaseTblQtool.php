@@ -52,5 +52,134 @@ class BaseTblQtool
     private $template;
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nome
+     *
+     * @param string $nome
+     *
+     * @return BaseTblQtool
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+
+        return $this;
+    }
+
+    /**
+     * Get nome
+     *
+     * @return string
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * Set checkboxTblGruppi
+     *
+     * @param string $checkboxTblGruppi
+     *
+     * @return BaseTblQtool
+     */
+    public function setCheckboxTblGruppi($checkboxTblGruppi)
+    {
+        $this->checkboxTblGruppi = $checkboxTblGruppi;
+
+        return $this;
+    }
+
+    /**
+     * Get checkboxTblGruppi
+     *
+     * @return string
+     */
+    public function getCheckboxTblGruppi()
+    {
+        return $this->checkboxTblGruppi;
+    }
+
+    /**
+     * Set plugin
+     *
+     * @param string $plugin
+     *
+     * @return BaseTblQtool
+     */
+    public function setPlugin($plugin)
+    {
+        $this->plugin = $plugin;
+
+        return $this;
+    }
+
+    /**
+     * Get plugin
+     *
+     * @return string
+     */
+    public function getPlugin()
+    {
+        return $this->plugin;
+    }
+
+    /**
+     * Set posizione
+     *
+     * @param integer $posizione
+     *
+     * @return BaseTblQtool
+     */
+    public function setPosizione($posizione)
+    {
+        $this->posizione = $posizione;
+
+        return $this;
+    }
+
+    /**
+     * Get posizione
+     *
+     * @return integer
+     */
+    public function getPosizione()
+    {
+        return $this->posizione;
+    }
+
+    /**
+     * Set template
+     *
+     * @param string $template
+     *
+     * @return BaseTblQtool
+     */
+    public function setTemplate($template)
+    {
+        $this->template = $template;
+
+        return $this;
+    }
+
+    /**
+     * Get template
+     *
+     * @return string
+     */
+    public function getTemplate()
+    {
+        return $this->template;
+    }
+}

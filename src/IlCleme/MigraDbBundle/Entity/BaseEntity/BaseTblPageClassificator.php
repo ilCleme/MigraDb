@@ -52,5 +52,134 @@ class BaseTblPageClassificator
     private $propertyValueReference = '0';
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set idTblLingua
+     *
+     * @param integer $idTblLingua
+     *
+     * @return BaseTblPageClassificator
+     */
+    public function setIdTblLingua($idTblLingua)
+    {
+        $this->idTblLingua = $idTblLingua;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblLingua
+     *
+     * @return integer
+     */
+    public function getIdTblLingua()
+    {
+        return $this->idTblLingua;
+    }
+
+    /**
+     * Set idTblPage
+     *
+     * @param integer $idTblPage
+     *
+     * @return BaseTblPageClassificator
+     */
+    public function setIdTblPage($idTblPage)
+    {
+        $this->idTblPage = $idTblPage;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblPage
+     *
+     * @return integer
+     */
+    public function getIdTblPage()
+    {
+        return $this->idTblPage;
+    }
+
+    /**
+     * Set idTblPageProperties
+     *
+     * @param integer $idTblPageProperties
+     *
+     * @return BaseTblPageClassificator
+     */
+    public function setIdTblPageProperties($idTblPageProperties)
+    {
+        $this->idTblPageProperties = $idTblPageProperties;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblPageProperties
+     *
+     * @return integer
+     */
+    public function getIdTblPageProperties()
+    {
+        return $this->idTblPageProperties;
+    }
+
+    /**
+     * Set propertyValuesTblPage
+     *
+     * @param string $propertyValuesTblPage
+     *
+     * @return BaseTblPageClassificator
+     */
+    public function setPropertyValuesTblPage($propertyValuesTblPage)
+    {
+        $this->propertyValuesTblPage = $propertyValuesTblPage;
+
+        return $this;
+    }
+
+    /**
+     * Get propertyValuesTblPage
+     *
+     * @return string
+     */
+    public function getPropertyValuesTblPage()
+    {
+        return $this->propertyValuesTblPage;
+    }
+
+    /**
+     * Set propertyValueReference
+     *
+     * @param integer $propertyValueReference
+     *
+     * @return BaseTblPageClassificator
+     */
+    public function setPropertyValueReference($propertyValueReference)
+    {
+        $this->propertyValueReference = $propertyValueReference;
+
+        return $this;
+    }
+
+    /**
+     * Get propertyValueReference
+     *
+     * @return integer
+     */
+    public function getPropertyValueReference()
+    {
+        return $this->propertyValueReference;
+    }
+}

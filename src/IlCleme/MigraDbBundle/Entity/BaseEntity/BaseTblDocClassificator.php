@@ -52,5 +52,134 @@ class BaseTblDocClassificator
     private $propertyValueReference = '0';
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set idTblLingua
+     *
+     * @param integer $idTblLingua
+     *
+     * @return BaseTblDocClassificator
+     */
+    public function setIdTblLingua($idTblLingua)
+    {
+        $this->idTblLingua = $idTblLingua;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblLingua
+     *
+     * @return integer
+     */
+    public function getIdTblLingua()
+    {
+        return $this->idTblLingua;
+    }
+
+    /**
+     * Set idTblDoc
+     *
+     * @param integer $idTblDoc
+     *
+     * @return BaseTblDocClassificator
+     */
+    public function setIdTblDoc($idTblDoc)
+    {
+        $this->idTblDoc = $idTblDoc;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblDoc
+     *
+     * @return integer
+     */
+    public function getIdTblDoc()
+    {
+        return $this->idTblDoc;
+    }
+
+    /**
+     * Set idTblDocProperties
+     *
+     * @param integer $idTblDocProperties
+     *
+     * @return BaseTblDocClassificator
+     */
+    public function setIdTblDocProperties($idTblDocProperties)
+    {
+        $this->idTblDocProperties = $idTblDocProperties;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblDocProperties
+     *
+     * @return integer
+     */
+    public function getIdTblDocProperties()
+    {
+        return $this->idTblDocProperties;
+    }
+
+    /**
+     * Set propertyValuesTblDoc
+     *
+     * @param string $propertyValuesTblDoc
+     *
+     * @return BaseTblDocClassificator
+     */
+    public function setPropertyValuesTblDoc($propertyValuesTblDoc)
+    {
+        $this->propertyValuesTblDoc = $propertyValuesTblDoc;
+
+        return $this;
+    }
+
+    /**
+     * Get propertyValuesTblDoc
+     *
+     * @return string
+     */
+    public function getPropertyValuesTblDoc()
+    {
+        return $this->propertyValuesTblDoc;
+    }
+
+    /**
+     * Set propertyValueReference
+     *
+     * @param integer $propertyValueReference
+     *
+     * @return BaseTblDocClassificator
+     */
+    public function setPropertyValueReference($propertyValueReference)
+    {
+        $this->propertyValueReference = $propertyValueReference;
+
+        return $this;
+    }
+
+    /**
+     * Get propertyValueReference
+     *
+     * @return integer
+     */
+    public function getPropertyValueReference()
+    {
+        return $this->propertyValueReference;
+    }
+}

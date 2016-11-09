@@ -45,5 +45,110 @@ class BaseTblDocCat
     private $pos = '11';
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set idTblDocCat
+     *
+     * @param integer $idTblDocCat
+     *
+     * @return BaseTblDocCat
+     */
+    public function setIdTblDocCat($idTblDocCat)
+    {
+        $this->idTblDocCat = $idTblDocCat;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblDocCat
+     *
+     * @return integer
+     */
+    public function getIdTblDocCat()
+    {
+        return $this->idTblDocCat;
+    }
+
+    /**
+     * Set idTblLingua
+     *
+     * @param integer $idTblLingua
+     *
+     * @return BaseTblDocCat
+     */
+    public function setIdTblLingua($idTblLingua)
+    {
+        $this->idTblLingua = $idTblLingua;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblLingua
+     *
+     * @return integer
+     */
+    public function getIdTblLingua()
+    {
+        return $this->idTblLingua;
+    }
+
+    /**
+     * Set title
+     *
+     * @param string $title
+     *
+     * @return BaseTblDocCat
+     */
+    public function setTitle($title)
+    {
+        $this->title = $title;
+
+        return $this;
+    }
+
+    /**
+     * Get title
+     *
+     * @return string
+     */
+    public function getTitle()
+    {
+        return $this->title;
+    }
+
+    /**
+     * Set pos
+     *
+     * @param integer $pos
+     *
+     * @return BaseTblDocCat
+     */
+    public function setPos($pos)
+    {
+        $this->pos = $pos;
+
+        return $this;
+    }
+
+    /**
+     * Get pos
+     *
+     * @return integer
+     */
+    public function getPos()
+    {
+        return $this->pos;
+    }
+}

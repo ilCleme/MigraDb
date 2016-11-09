@@ -94,5 +94,278 @@ class BaseTblInput
     private $attrs2;
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nome
+     *
+     * @param string $nome
+     *
+     * @return BaseTblInput
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+
+        return $this;
+    }
+
+    /**
+     * Get nome
+     *
+     * @return string
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * Set tipo
+     *
+     * @param string $tipo
+     *
+     * @return BaseTblInput
+     */
+    public function setTipo($tipo)
+    {
+        $this->tipo = $tipo;
+
+        return $this;
+    }
+
+    /**
+     * Get tipo
+     *
+     * @return string
+     */
+    public function getTipo()
+    {
+        return $this->tipo;
+    }
+
+    /**
+     * Set posizione
+     *
+     * @param integer $posizione
+     *
+     * @return BaseTblInput
+     */
+    public function setPosizione($posizione)
+    {
+        $this->posizione = $posizione;
+
+        return $this;
+    }
+
+    /**
+     * Get posizione
+     *
+     * @return integer
+     */
+    public function getPosizione()
+    {
+        return $this->posizione;
+    }
+
+    /**
+     * Set label
+     *
+     * @param string $label
+     *
+     * @return BaseTblInput
+     */
+    public function setLabel($label)
+    {
+        $this->label = $label;
+
+        return $this;
+    }
+
+    /**
+     * Get label
+     *
+     * @return string
+     */
+    public function getLabel()
+    {
+        return $this->label;
+    }
+
+    /**
+     * Set attrs
+     *
+     * @param string $attrs
+     *
+     * @return BaseTblInput
+     */
+    public function setAttrs($attrs)
+    {
+        $this->attrs = $attrs;
+
+        return $this;
+    }
+
+    /**
+     * Get attrs
+     *
+     * @return string
+     */
+    public function getAttrs()
+    {
+        return $this->attrs;
+    }
+
+    /**
+     * Set filter
+     *
+     * @param string $filter
+     *
+     * @return BaseTblInput
+     */
+    public function setFilter($filter)
+    {
+        $this->filter = $filter;
+
+        return $this;
+    }
+
+    /**
+     * Get filter
+     *
+     * @return string
+     */
+    public function getFilter()
+    {
+        return $this->filter;
+    }
+
+    /**
+     * Set errmsg
+     *
+     * @param string $errmsg
+     *
+     * @return BaseTblInput
+     */
+    public function setErrmsg($errmsg)
+    {
+        $this->errmsg = $errmsg;
+
+        return $this;
+    }
+
+    /**
+     * Get errmsg
+     *
+     * @return string
+     */
+    public function getErrmsg()
+    {
+        return $this->errmsg;
+    }
+
+    /**
+     * Set ruleext
+     *
+     * @param string $ruleext
+     *
+     * @return BaseTblInput
+     */
+    public function setRuleext($ruleext)
+    {
+        $this->ruleext = $ruleext;
+
+        return $this;
+    }
+
+    /**
+     * Get ruleext
+     *
+     * @return string
+     */
+    public function getRuleext()
+    {
+        return $this->ruleext;
+    }
+
+    /**
+     * Set typectrl
+     *
+     * @param string $typectrl
+     *
+     * @return BaseTblInput
+     */
+    public function setTypectrl($typectrl)
+    {
+        $this->typectrl = $typectrl;
+
+        return $this;
+    }
+
+    /**
+     * Get typectrl
+     *
+     * @return string
+     */
+    public function getTypectrl()
+    {
+        return $this->typectrl;
+    }
+
+    /**
+     * Set attrs1
+     *
+     * @param string $attrs1
+     *
+     * @return BaseTblInput
+     */
+    public function setAttrs1($attrs1)
+    {
+        $this->attrs1 = $attrs1;
+
+        return $this;
+    }
+
+    /**
+     * Get attrs1
+     *
+     * @return string
+     */
+    public function getAttrs1()
+    {
+        return $this->attrs1;
+    }
+
+    /**
+     * Set attrs2
+     *
+     * @param string $attrs2
+     *
+     * @return BaseTblInput
+     */
+    public function setAttrs2($attrs2)
+    {
+        $this->attrs2 = $attrs2;
+
+        return $this;
+    }
+
+    /**
+     * Get attrs2
+     *
+     * @return string
+     */
+    public function getAttrs2()
+    {
+        return $this->attrs2;
+    }
+}

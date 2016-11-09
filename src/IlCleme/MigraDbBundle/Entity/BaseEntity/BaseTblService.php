@@ -31,5 +31,62 @@ class BaseTblService
     private $descr = 'descrizione servizio';
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nome
+     *
+     * @param string $nome
+     *
+     * @return BaseTblService
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+
+        return $this;
+    }
+
+    /**
+     * Get nome
+     *
+     * @return string
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * Set descr
+     *
+     * @param string $descr
+     *
+     * @return BaseTblService
+     */
+    public function setDescr($descr)
+    {
+        $this->descr = $descr;
+
+        return $this;
+    }
+
+    /**
+     * Get descr
+     *
+     * @return string
+     */
+    public function getDescr()
+    {
+        return $this->descr;
+    }
+}

@@ -59,5 +59,158 @@ class BaseTblCatLink
     private $img;
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set idTblCatLink
+     *
+     * @param integer $idTblCatLink
+     *
+     * @return BaseTblCatLink
+     */
+    public function setIdTblCatLink($idTblCatLink)
+    {
+        $this->idTblCatLink = $idTblCatLink;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblCatLink
+     *
+     * @return integer
+     */
+    public function getIdTblCatLink()
+    {
+        return $this->idTblCatLink;
+    }
+
+    /**
+     * Set idTblLingua
+     *
+     * @param integer $idTblLingua
+     *
+     * @return BaseTblCatLink
+     */
+    public function setIdTblLingua($idTblLingua)
+    {
+        $this->idTblLingua = $idTblLingua;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblLingua
+     *
+     * @return integer
+     */
+    public function getIdTblLingua()
+    {
+        return $this->idTblLingua;
+    }
+
+    /**
+     * Set nome
+     *
+     * @param string $nome
+     *
+     * @return BaseTblCatLink
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+
+        return $this;
+    }
+
+    /**
+     * Get nome
+     *
+     * @return string
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * Set smartyTemplate
+     *
+     * @param string $smartyTemplate
+     *
+     * @return BaseTblCatLink
+     */
+    public function setSmartyTemplate($smartyTemplate)
+    {
+        $this->smartyTemplate = $smartyTemplate;
+
+        return $this;
+    }
+
+    /**
+     * Get smartyTemplate
+     *
+     * @return string
+     */
+    public function getSmartyTemplate()
+    {
+        return $this->smartyTemplate;
+    }
+
+    /**
+     * Set posizione
+     *
+     * @param integer $posizione
+     *
+     * @return BaseTblCatLink
+     */
+    public function setPosizione($posizione)
+    {
+        $this->posizione = $posizione;
+
+        return $this;
+    }
+
+    /**
+     * Get posizione
+     *
+     * @return integer
+     */
+    public function getPosizione()
+    {
+        return $this->posizione;
+    }
+
+    /**
+     * Set img
+     *
+     * @param string $img
+     *
+     * @return BaseTblCatLink
+     */
+    public function setImg($img)
+    {
+        $this->img = $img;
+
+        return $this;
+    }
+
+    /**
+     * Get img
+     *
+     * @return string
+     */
+    public function getImg()
+    {
+        return $this->img;
+    }
+}

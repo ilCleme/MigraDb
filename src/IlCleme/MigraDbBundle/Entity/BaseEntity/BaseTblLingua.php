@@ -38,5 +38,86 @@ class BaseTblLingua
     private $pub;
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nome
+     *
+     * @param string $nome
+     *
+     * @return BaseTblLingua
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+
+        return $this;
+    }
+
+    /**
+     * Get nome
+     *
+     * @return string
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * Set img
+     *
+     * @param string $img
+     *
+     * @return BaseTblLingua
+     */
+    public function setImg($img)
+    {
+        $this->img = $img;
+
+        return $this;
+    }
+
+    /**
+     * Get img
+     *
+     * @return string
+     */
+    public function getImg()
+    {
+        return $this->img;
+    }
+
+    /**
+     * Set pub
+     *
+     * @param string $pub
+     *
+     * @return BaseTblLingua
+     */
+    public function setPub($pub)
+    {
+        $this->pub = $pub;
+
+        return $this;
+    }
+
+    /**
+     * Get pub
+     *
+     * @return string
+     */
+    public function getPub()
+    {
+        return $this->pub;
+    }
+}

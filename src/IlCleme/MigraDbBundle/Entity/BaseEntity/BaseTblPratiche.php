@@ -59,5 +59,158 @@ class BaseTblPratiche
     private $idTblTipoMutuo = '0';
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return boolean
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nome
+     *
+     * @param string $nome
+     *
+     * @return BaseTblPratiche
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+
+        return $this;
+    }
+
+    /**
+     * Get nome
+     *
+     * @return string
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * Set cognome
+     *
+     * @param string $cognome
+     *
+     * @return BaseTblPratiche
+     */
+    public function setCognome($cognome)
+    {
+        $this->cognome = $cognome;
+
+        return $this;
+    }
+
+    /**
+     * Get cognome
+     *
+     * @return string
+     */
+    public function getCognome()
+    {
+        return $this->cognome;
+    }
+
+    /**
+     * Set pratica
+     *
+     * @param integer $pratica
+     *
+     * @return BaseTblPratiche
+     */
+    public function setPratica($pratica)
+    {
+        $this->pratica = $pratica;
+
+        return $this;
+    }
+
+    /**
+     * Get pratica
+     *
+     * @return integer
+     */
+    public function getPratica()
+    {
+        return $this->pratica;
+    }
+
+    /**
+     * Set datains
+     *
+     * @param \DateTime $datains
+     *
+     * @return BaseTblPratiche
+     */
+    public function setDatains($datains)
+    {
+        $this->datains = $datains;
+
+        return $this;
+    }
+
+    /**
+     * Get datains
+     *
+     * @return \DateTime
+     */
+    public function getDatains()
+    {
+        return $this->datains;
+    }
+
+    /**
+     * Set idTblImgStatoPratiche
+     *
+     * @param integer $idTblImgStatoPratiche
+     *
+     * @return BaseTblPratiche
+     */
+    public function setIdTblImgStatoPratiche($idTblImgStatoPratiche)
+    {
+        $this->idTblImgStatoPratiche = $idTblImgStatoPratiche;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblImgStatoPratiche
+     *
+     * @return integer
+     */
+    public function getIdTblImgStatoPratiche()
+    {
+        return $this->idTblImgStatoPratiche;
+    }
+
+    /**
+     * Set idTblTipoMutuo
+     *
+     * @param integer $idTblTipoMutuo
+     *
+     * @return BaseTblPratiche
+     */
+    public function setIdTblTipoMutuo($idTblTipoMutuo)
+    {
+        $this->idTblTipoMutuo = $idTblTipoMutuo;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblTipoMutuo
+     *
+     * @return integer
+     */
+    public function getIdTblTipoMutuo()
+    {
+        return $this->idTblTipoMutuo;
+    }
+}

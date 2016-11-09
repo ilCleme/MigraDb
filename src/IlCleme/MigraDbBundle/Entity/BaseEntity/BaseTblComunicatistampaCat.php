@@ -178,5 +178,566 @@ class BaseTblComunicatistampaCat
     private $pageSearchView;
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set idTblComunicatistampaCat
+     *
+     * @param integer $idTblComunicatistampaCat
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setIdTblComunicatistampaCat($idTblComunicatistampaCat)
+    {
+        $this->idTblComunicatistampaCat = $idTblComunicatistampaCat;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblComunicatistampaCat
+     *
+     * @return integer
+     */
+    public function getIdTblComunicatistampaCat()
+    {
+        return $this->idTblComunicatistampaCat;
+    }
+
+    /**
+     * Set idTblLingua
+     *
+     * @param integer $idTblLingua
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setIdTblLingua($idTblLingua)
+    {
+        $this->idTblLingua = $idTblLingua;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblLingua
+     *
+     * @return integer
+     */
+    public function getIdTblLingua()
+    {
+        return $this->idTblLingua;
+    }
+
+    /**
+     * Set nome
+     *
+     * @param string $nome
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+
+        return $this;
+    }
+
+    /**
+     * Get nome
+     *
+     * @return string
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * Set posizione
+     *
+     * @param integer $posizione
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setPosizione($posizione)
+    {
+        $this->posizione = $posizione;
+
+        return $this;
+    }
+
+    /**
+     * Get posizione
+     *
+     * @return integer
+     */
+    public function getPosizione()
+    {
+        return $this->posizione;
+    }
+
+    /**
+     * Set templateListPreview
+     *
+     * @param string $templateListPreview
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setTemplateListPreview($templateListPreview)
+    {
+        $this->templateListPreview = $templateListPreview;
+
+        return $this;
+    }
+
+    /**
+     * Get templateListPreview
+     *
+     * @return string
+     */
+    public function getTemplateListPreview()
+    {
+        return $this->templateListPreview;
+    }
+
+    /**
+     * Set templateList
+     *
+     * @param string $templateList
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setTemplateList($templateList)
+    {
+        $this->templateList = $templateList;
+
+        return $this;
+    }
+
+    /**
+     * Get templateList
+     *
+     * @return string
+     */
+    public function getTemplateList()
+    {
+        return $this->templateList;
+    }
+
+    /**
+     * Set template
+     *
+     * @param string $template
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setTemplate($template)
+    {
+        $this->template = $template;
+
+        return $this;
+    }
+
+    /**
+     * Get template
+     *
+     * @return string
+     */
+    public function getTemplate()
+    {
+        return $this->template;
+    }
+
+    /**
+     * Set templateSearch
+     *
+     * @param string $templateSearch
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setTemplateSearch($templateSearch)
+    {
+        $this->templateSearch = $templateSearch;
+
+        return $this;
+    }
+
+    /**
+     * Get templateSearch
+     *
+     * @return string
+     */
+    public function getTemplateSearch()
+    {
+        return $this->templateSearch;
+    }
+
+    /**
+     * Set nDays
+     *
+     * @param integer $nDays
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setNDays($nDays)
+    {
+        $this->nDays = $nDays;
+
+        return $this;
+    }
+
+    /**
+     * Get nDays
+     *
+     * @return integer
+     */
+    public function getNDays()
+    {
+        return $this->nDays;
+    }
+
+    /**
+     * Set nVisiblePreview
+     *
+     * @param boolean $nVisiblePreview
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setNVisiblePreview($nVisiblePreview)
+    {
+        $this->nVisiblePreview = $nVisiblePreview;
+
+        return $this;
+    }
+
+    /**
+     * Get nVisiblePreview
+     *
+     * @return boolean
+     */
+    public function getNVisiblePreview()
+    {
+        return $this->nVisiblePreview;
+    }
+
+    /**
+     * Set nItemXPageActive
+     *
+     * @param integer $nItemXPageActive
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setNItemXPageActive($nItemXPageActive)
+    {
+        $this->nItemXPageActive = $nItemXPageActive;
+
+        return $this;
+    }
+
+    /**
+     * Get nItemXPageActive
+     *
+     * @return integer
+     */
+    public function getNItemXPageActive()
+    {
+        return $this->nItemXPageActive;
+    }
+
+    /**
+     * Set nItemXPageArchive
+     *
+     * @param integer $nItemXPageArchive
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setNItemXPageArchive($nItemXPageArchive)
+    {
+        $this->nItemXPageArchive = $nItemXPageArchive;
+
+        return $this;
+    }
+
+    /**
+     * Get nItemXPageArchive
+     *
+     * @return integer
+     */
+    public function getNItemXPageArchive()
+    {
+        return $this->nItemXPageArchive;
+    }
+
+    /**
+     * Set nItemXPageSearch
+     *
+     * @param integer $nItemXPageSearch
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setNItemXPageSearch($nItemXPageSearch)
+    {
+        $this->nItemXPageSearch = $nItemXPageSearch;
+
+        return $this;
+    }
+
+    /**
+     * Get nItemXPageSearch
+     *
+     * @return integer
+     */
+    public function getNItemXPageSearch()
+    {
+        return $this->nItemXPageSearch;
+    }
+
+    /**
+     * Set formatDateList
+     *
+     * @param string $formatDateList
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setFormatDateList($formatDateList)
+    {
+        $this->formatDateList = $formatDateList;
+
+        return $this;
+    }
+
+    /**
+     * Get formatDateList
+     *
+     * @return string
+     */
+    public function getFormatDateList()
+    {
+        return $this->formatDateList;
+    }
+
+    /**
+     * Set formatDatePage
+     *
+     * @param string $formatDatePage
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setFormatDatePage($formatDatePage)
+    {
+        $this->formatDatePage = $formatDatePage;
+
+        return $this;
+    }
+
+    /**
+     * Get formatDatePage
+     *
+     * @return string
+     */
+    public function getFormatDatePage()
+    {
+        return $this->formatDatePage;
+    }
+
+    /**
+     * Set formatDatePreview
+     *
+     * @param string $formatDatePreview
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setFormatDatePreview($formatDatePreview)
+    {
+        $this->formatDatePreview = $formatDatePreview;
+
+        return $this;
+    }
+
+    /**
+     * Get formatDatePreview
+     *
+     * @return string
+     */
+    public function getFormatDatePreview()
+    {
+        return $this->formatDatePreview;
+    }
+
+    /**
+     * Set pageListActive
+     *
+     * @param string $pageListActive
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setPageListActive($pageListActive)
+    {
+        $this->pageListActive = $pageListActive;
+
+        return $this;
+    }
+
+    /**
+     * Get pageListActive
+     *
+     * @return string
+     */
+    public function getPageListActive()
+    {
+        return $this->pageListActive;
+    }
+
+    /**
+     * Set pageViewActive
+     *
+     * @param string $pageViewActive
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setPageViewActive($pageViewActive)
+    {
+        $this->pageViewActive = $pageViewActive;
+
+        return $this;
+    }
+
+    /**
+     * Get pageViewActive
+     *
+     * @return string
+     */
+    public function getPageViewActive()
+    {
+        return $this->pageViewActive;
+    }
+
+    /**
+     * Set pageListArchive
+     *
+     * @param string $pageListArchive
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setPageListArchive($pageListArchive)
+    {
+        $this->pageListArchive = $pageListArchive;
+
+        return $this;
+    }
+
+    /**
+     * Get pageListArchive
+     *
+     * @return string
+     */
+    public function getPageListArchive()
+    {
+        return $this->pageListArchive;
+    }
+
+    /**
+     * Set pageViewArchive
+     *
+     * @param string $pageViewArchive
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setPageViewArchive($pageViewArchive)
+    {
+        $this->pageViewArchive = $pageViewArchive;
+
+        return $this;
+    }
+
+    /**
+     * Get pageViewArchive
+     *
+     * @return string
+     */
+    public function getPageViewArchive()
+    {
+        return $this->pageViewArchive;
+    }
+
+    /**
+     * Set pageSearch
+     *
+     * @param string $pageSearch
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setPageSearch($pageSearch)
+    {
+        $this->pageSearch = $pageSearch;
+
+        return $this;
+    }
+
+    /**
+     * Get pageSearch
+     *
+     * @return string
+     */
+    public function getPageSearch()
+    {
+        return $this->pageSearch;
+    }
+
+    /**
+     * Set pageSearchList
+     *
+     * @param string $pageSearchList
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setPageSearchList($pageSearchList)
+    {
+        $this->pageSearchList = $pageSearchList;
+
+        return $this;
+    }
+
+    /**
+     * Get pageSearchList
+     *
+     * @return string
+     */
+    public function getPageSearchList()
+    {
+        return $this->pageSearchList;
+    }
+
+    /**
+     * Set pageSearchView
+     *
+     * @param string $pageSearchView
+     *
+     * @return BaseTblComunicatistampaCat
+     */
+    public function setPageSearchView($pageSearchView)
+    {
+        $this->pageSearchView = $pageSearchView;
+
+        return $this;
+    }
+
+    /**
+     * Get pageSearchView
+     *
+     * @return string
+     */
+    public function getPageSearchView()
+    {
+        return $this->pageSearchView;
+    }
+}

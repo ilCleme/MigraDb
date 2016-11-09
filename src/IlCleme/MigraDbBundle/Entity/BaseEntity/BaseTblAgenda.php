@@ -52,5 +52,134 @@ class BaseTblAgenda
     private $link = '';
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nome
+     *
+     * @param string $nome
+     *
+     * @return BaseTblAgenda
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+
+        return $this;
+    }
+
+    /**
+     * Get nome
+     *
+     * @return string
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * Set sottotitolo
+     *
+     * @param string $sottotitolo
+     *
+     * @return BaseTblAgenda
+     */
+    public function setSottotitolo($sottotitolo)
+    {
+        $this->sottotitolo = $sottotitolo;
+
+        return $this;
+    }
+
+    /**
+     * Get sottotitolo
+     *
+     * @return string
+     */
+    public function getSottotitolo()
+    {
+        return $this->sottotitolo;
+    }
+
+    /**
+     * Set listadata
+     *
+     * @param string $listadata
+     *
+     * @return BaseTblAgenda
+     */
+    public function setListadata($listadata)
+    {
+        $this->listadata = $listadata;
+
+        return $this;
+    }
+
+    /**
+     * Get listadata
+     *
+     * @return string
+     */
+    public function getListadata()
+    {
+        return $this->listadata;
+    }
+
+    /**
+     * Set idTblCatAgenda
+     *
+     * @param integer $idTblCatAgenda
+     *
+     * @return BaseTblAgenda
+     */
+    public function setIdTblCatAgenda($idTblCatAgenda)
+    {
+        $this->idTblCatAgenda = $idTblCatAgenda;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblCatAgenda
+     *
+     * @return integer
+     */
+    public function getIdTblCatAgenda()
+    {
+        return $this->idTblCatAgenda;
+    }
+
+    /**
+     * Set link
+     *
+     * @param string $link
+     *
+     * @return BaseTblAgenda
+     */
+    public function setLink($link)
+    {
+        $this->link = $link;
+
+        return $this;
+    }
+
+    /**
+     * Get link
+     *
+     * @return string
+     */
+    public function getLink()
+    {
+        return $this->link;
+    }
+}

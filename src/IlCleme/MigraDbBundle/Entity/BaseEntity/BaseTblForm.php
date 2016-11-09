@@ -59,5 +59,158 @@ class BaseTblForm
     private $smarty;
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nome
+     *
+     * @param string $nome
+     *
+     * @return BaseTblForm
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+
+        return $this;
+    }
+
+    /**
+     * Get nome
+     *
+     * @return string
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * Set listaInput
+     *
+     * @param string $listaInput
+     *
+     * @return BaseTblForm
+     */
+    public function setListaInput($listaInput)
+    {
+        $this->listaInput = $listaInput;
+
+        return $this;
+    }
+
+    /**
+     * Get listaInput
+     *
+     * @return string
+     */
+    public function getListaInput()
+    {
+        return $this->listaInput;
+    }
+
+    /**
+     * Set posizione
+     *
+     * @param integer $posizione
+     *
+     * @return BaseTblForm
+     */
+    public function setPosizione($posizione)
+    {
+        $this->posizione = $posizione;
+
+        return $this;
+    }
+
+    /**
+     * Get posizione
+     *
+     * @return integer
+     */
+    public function getPosizione()
+    {
+        return $this->posizione;
+    }
+
+    /**
+     * Set predefiniti
+     *
+     * @param string $predefiniti
+     *
+     * @return BaseTblForm
+     */
+    public function setPredefiniti($predefiniti)
+    {
+        $this->predefiniti = $predefiniti;
+
+        return $this;
+    }
+
+    /**
+     * Get predefiniti
+     *
+     * @return string
+     */
+    public function getPredefiniti()
+    {
+        return $this->predefiniti;
+    }
+
+    /**
+     * Set action
+     *
+     * @param string $action
+     *
+     * @return BaseTblForm
+     */
+    public function setAction($action)
+    {
+        $this->action = $action;
+
+        return $this;
+    }
+
+    /**
+     * Get action
+     *
+     * @return string
+     */
+    public function getAction()
+    {
+        return $this->action;
+    }
+
+    /**
+     * Set smarty
+     *
+     * @param string $smarty
+     *
+     * @return BaseTblForm
+     */
+    public function setSmarty($smarty)
+    {
+        $this->smarty = $smarty;
+
+        return $this;
+    }
+
+    /**
+     * Get smarty
+     *
+     * @return string
+     */
+    public function getSmarty()
+    {
+        return $this->smarty;
+    }
+}

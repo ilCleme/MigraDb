@@ -45,5 +45,110 @@ class BaseTblModelli
     private $img = '.gif';
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nome
+     *
+     * @param string $nome
+     *
+     * @return BaseTblModelli
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+
+        return $this;
+    }
+
+    /**
+     * Get nome
+     *
+     * @return string
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * Set modello
+     *
+     * @param string $modello
+     *
+     * @return BaseTblModelli
+     */
+    public function setModello($modello)
+    {
+        $this->modello = $modello;
+
+        return $this;
+    }
+
+    /**
+     * Get modello
+     *
+     * @return string
+     */
+    public function getModello()
+    {
+        return $this->modello;
+    }
+
+    /**
+     * Set idTblCatModelli
+     *
+     * @param integer $idTblCatModelli
+     *
+     * @return BaseTblModelli
+     */
+    public function setIdTblCatModelli($idTblCatModelli)
+    {
+        $this->idTblCatModelli = $idTblCatModelli;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblCatModelli
+     *
+     * @return integer
+     */
+    public function getIdTblCatModelli()
+    {
+        return $this->idTblCatModelli;
+    }
+
+    /**
+     * Set img
+     *
+     * @param string $img
+     *
+     * @return BaseTblModelli
+     */
+    public function setImg($img)
+    {
+        $this->img = $img;
+
+        return $this;
+    }
+
+    /**
+     * Get img
+     *
+     * @return string
+     */
+    public function getImg()
+    {
+        return $this->img;
+    }
+}

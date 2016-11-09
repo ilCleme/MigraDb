@@ -38,5 +38,86 @@ class BaseUseronline
     private $file;
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set zeit
+     *
+     * @param integer $zeit
+     *
+     * @return BaseUseronline
+     */
+    public function setZeit($zeit)
+    {
+        $this->zeit = $zeit;
+
+        return $this;
+    }
+
+    /**
+     * Get zeit
+     *
+     * @return integer
+     */
+    public function getZeit()
+    {
+        return $this->zeit;
+    }
+
+    /**
+     * Set ip
+     *
+     * @param string $ip
+     *
+     * @return BaseUseronline
+     */
+    public function setIp($ip)
+    {
+        $this->ip = $ip;
+
+        return $this;
+    }
+
+    /**
+     * Get ip
+     *
+     * @return string
+     */
+    public function getIp()
+    {
+        return $this->ip;
+    }
+
+    /**
+     * Set file
+     *
+     * @param string $file
+     *
+     * @return BaseUseronline
+     */
+    public function setFile($file)
+    {
+        $this->file = $file;
+
+        return $this;
+    }
+
+    /**
+     * Get file
+     *
+     * @return string
+     */
+    public function getFile()
+    {
+        return $this->file;
+    }
+}

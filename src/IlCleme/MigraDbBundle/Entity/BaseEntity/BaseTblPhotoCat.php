@@ -66,5 +66,182 @@ class BaseTblPhotoCat
     private $posizione = '0';
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set idPadre
+     *
+     * @param integer $idPadre
+     *
+     * @return BaseTblPhotoCat
+     */
+    public function setIdPadre($idPadre)
+    {
+        $this->idPadre = $idPadre;
+
+        return $this;
+    }
+
+    /**
+     * Get idPadre
+     *
+     * @return integer
+     */
+    public function getIdPadre()
+    {
+        return $this->idPadre;
+    }
+
+    /**
+     * Set idTblPhotoCat
+     *
+     * @param integer $idTblPhotoCat
+     *
+     * @return BaseTblPhotoCat
+     */
+    public function setIdTblPhotoCat($idTblPhotoCat)
+    {
+        $this->idTblPhotoCat = $idTblPhotoCat;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblPhotoCat
+     *
+     * @return integer
+     */
+    public function getIdTblPhotoCat()
+    {
+        return $this->idTblPhotoCat;
+    }
+
+    /**
+     * Set idTblLingua
+     *
+     * @param integer $idTblLingua
+     *
+     * @return BaseTblPhotoCat
+     */
+    public function setIdTblLingua($idTblLingua)
+    {
+        $this->idTblLingua = $idTblLingua;
+
+        return $this;
+    }
+
+    /**
+     * Get idTblLingua
+     *
+     * @return integer
+     */
+    public function getIdTblLingua()
+    {
+        return $this->idTblLingua;
+    }
+
+    /**
+     * Set nome
+     *
+     * @param string $nome
+     *
+     * @return BaseTblPhotoCat
+     */
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+
+        return $this;
+    }
+
+    /**
+     * Get nome
+     *
+     * @return string
+     */
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    /**
+     * Set num
+     *
+     * @param integer $num
+     *
+     * @return BaseTblPhotoCat
+     */
+    public function setNum($num)
+    {
+        $this->num = $num;
+
+        return $this;
+    }
+
+    /**
+     * Get num
+     *
+     * @return integer
+     */
+    public function getNum()
+    {
+        return $this->num;
+    }
+
+    /**
+     * Set smartyTemplate
+     *
+     * @param string $smartyTemplate
+     *
+     * @return BaseTblPhotoCat
+     */
+    public function setSmartyTemplate($smartyTemplate)
+    {
+        $this->smartyTemplate = $smartyTemplate;
+
+        return $this;
+    }
+
+    /**
+     * Get smartyTemplate
+     *
+     * @return string
+     */
+    public function getSmartyTemplate()
+    {
+        return $this->smartyTemplate;
+    }
+
+    /**
+     * Set posizione
+     *
+     * @param integer $posizione
+     *
+     * @return BaseTblPhotoCat
+     */
+    public function setPosizione($posizione)
+    {
+        $this->posizione = $posizione;
+
+        return $this;
+    }
+
+    /**
+     * Get posizione
+     *
+     * @return integer
+     */
+    public function getPosizione()
+    {
+        return $this->posizione;
+    }
+}

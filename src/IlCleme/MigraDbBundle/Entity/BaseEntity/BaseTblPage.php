@@ -42,7 +42,7 @@ class BaseTblPage
      *
      * @ORM\Column(name="id_tbl_menu", type="integer", nullable=true)
      */
-    private $idTblMenu = '1';
+    private $idTblMenu;
 
     /**
      * @var integer
@@ -56,14 +56,14 @@ class BaseTblPage
      *
      * @ORM\Column(name="checkbox_tbl_gruppi", type="string", length=200, nullable=true)
      */
-    private $checkboxTblGruppi = ',,';
+    private $checkboxTblGruppi = '';
 
     /**
      * @var string
      *
      * @ORM\Column(name="checkbox_tbl_service", type="string", length=200, nullable=true)
      */
-    private $checkboxTblService = ',,';
+    private $checkboxTblService = '';
 
     /**
      * @var integer
@@ -77,7 +77,7 @@ class BaseTblPage
      *
      * @ORM\Column(name="id_tbl_photo", type="integer", nullable=true)
      */
-    private $idTblPhoto = '0';
+    private $idTblPhoto;
 
     /**
      * @var string
@@ -105,14 +105,14 @@ class BaseTblPage
      *
      * @ORM\Column(name="utentemod", type="string", length=100, nullable=true)
      */
-    private $utentemod = 'pippo (182.1.1.1)';
+    private $utentemod = '';
 
     /**
      * @var integer
      *
      * @ORM\Column(name="id_tbl_photo_cat", type="integer", nullable=true)
      */
-    private $idTblPhotoCat = '1';
+    private $idTblPhotoCat;
 
     /**
      * @var string

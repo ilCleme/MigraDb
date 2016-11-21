@@ -26,6 +26,13 @@ class BaseTblCatLink
     /**
      * @var integer
      *
+     * @ORM\Column(name="id_padre", type="integer", nullable=false)
+     */
+    private $idPadre = '0';
+
+    /**
+     * @var integer
+     *
      * @ORM\Column(name="id_tbl_lingua", type="integer", nullable=false)
      */
     private $idTblLingua = '4';
@@ -42,14 +49,14 @@ class BaseTblCatLink
      *
      * @ORM\Column(name="smarty_template", type="string", length=200, nullable=false)
      */
-    private $smartyTemplate = 'link.tpl';
+    private $smartyTemplate = '';
 
     /**
      * @var integer
      *
      * @ORM\Column(name="posizione", type="integer", nullable=true)
      */
-    private $posizione = '11';
+    private $posizione;
 
     /**
      * @var string
